@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>JavaScript. Браузерное окружение. Работа с DOM.</title>
+</head>
+
+<body>
+	<h1>
+		<span class="yellow">JavaScript.</span>
+		Браузерное окружение.
+		Работа с <span class="yellow">DOM.</span>
+	</h1>
+	<h3>Урок №13</h3>
+	<br>
+	<ul>
+		<li>Пункт №1</li>
+		<li>Пункт №2</li>
+	</ul>
+	<!-- <div class="like"></div>
+	<div class="subscribe"></div>
+	<div class="like subscribe"></div> -->
+	<!-- <div>
+		<ul>
+			<li>Корчи</li>
+			<li>Йончи</li>
+		</ul>
+	</div> -->
+	<div data-say-hi="yes" style="margin-top: 25px">Привет!</div>
+	<div class="lesson">
+		<div class="lesson__text">Привет! Это <span class="yellow">"Фрилансер по жизни"</span></div>
+		<!-- Я комментарий -->
+		<ul name="list" class="lesson__list">
+			<li class="lesson__item-list lesson__item-list-red">Пункт №1</li>
+			<li id="listItem" class="lesson__item-list">Пункт №2</li>
+			<li data-item="40" class="lesson__item-list">Пункт №3
+				<ul class="lesson__sub-list">
+					<li class="lesson__item-sub-list">Подпункт №1</li>
+					<li data-item="85" class="lesson__item-sub-list">Подпункт №2</li>
+					<li class="lesson__item-sub-list">Подпункт №3</li>
+				</ul>
+			</li>
+			<li class="lesson__item-list lesson__item-list-blue">Пункт №4</li>
+		</ul>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

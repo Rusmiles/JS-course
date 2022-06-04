@@ -1,0 +1,14 @@
+html,
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+.yellow {
+  color: yellow;
+}
+
+h1,
+h3 {
+  color: aliceblue;
+  margin: 30px;
+}
