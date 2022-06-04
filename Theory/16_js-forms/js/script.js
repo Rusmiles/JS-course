@@ -446,13 +446,19 @@ mainFormFile.addEventListener("change", function (e) {
 при любых изменениях значений, даже если они
 не связаны с клавиатурными действиями:
 вставка с помощью мыши или распознавание речи при диктовке текста.
+Но не срабатывает или просто перемещать курсор.
 */
 /* 
 const mainForm = document.forms.main;
 const mainFormInput = mainForm.nameInput;
+const mainFormTextarea = mainForm.nameTextarea;
 
 mainFormInput.addEventListener("input", function (event) {
 	console.log(`value: ${mainFormInput.value}`);
+});
+
+mainFormTextarea.addEventListener("input", function (event) {
+	console.log(`value: ${mainFormTextarea.value}`);
 });
 */
 
